@@ -47,5 +47,6 @@ int main(int argc, char *argv[])
     cout << p->Render();
     p =&obj3;
     cout << p->Render();
+    delete p;
     return 0;
 }
