@@ -50,6 +50,16 @@ public:
 
 int main(int argc, char *argv[])
 {
-
+    HTMLElemen *p;
+    HTMLButtonElement obj1;
+    HTMLImageElement obj2;
+    HTMLTextAreaDocument obj3;
+    p = &obj1;
+    cout << p->Render();
+    p =&obj2;
+    cout << p->Render();
+    p =&obj3;
+    cout << p->Render();
+    delete p;
     return 0;
 }
